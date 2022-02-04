@@ -1,0 +1,129 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+  }
+
+.header{
+    background-color: #1F2937;
+    padding: 28px;
+    padding-top: 0;
+}
+
+.headerTop{
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.navBar{
+    list-style: none;
+    display: flex;
+    gap:28px;
+}
+
+.introduction{
+    font-size: 36px;
+    
+    color: #F9FAF8;
+}
+
+.introduction h1{
+    font-weight: bolder;
+}
+
+.introduction p, .navBar, .introduction button{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.introduction button{
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 6px 24px;
+}
+
+.headerBottom img{
+    width: 500px;
+    height:auto;
+}
+
+.headerBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bodyone{
+    text-align: center;
+    padding: 28px;
+}
+.bodyone h1{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:52px;
+}
+.information img{
+    width: 100px;
+}
+
+.bodytwo{
+    background-color: #E5E7EB;
+    padding: 28px;
+}
+
+.bodytwo h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.bodytwo p{
+    font-weight: bolder;
+    text-align: right;
+}
+
+.bodythree{
+    
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:52px;
+    width:700px;
+    
+    padding:28px;
+    margin:48px auto;
+    border-radius: 12px;
+}
+
+.bodythree button{
+    border-radius: 12px;
+    padding: 6px 24px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    background: #1F2937;
+    color: #E5E7EB;
+  }
+
+  
+
+
